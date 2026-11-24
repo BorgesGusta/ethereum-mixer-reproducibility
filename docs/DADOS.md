@@ -25,13 +25,16 @@ Se o hash não corresponder, a execução é interrompida: o arquivo recebido n�
 
 ## Origem e acesso aos arquivos
 
-Os dois Parquets foram identificados na pasta `processed` do **Google Drive oficial da pesquisa**. **Os links diretos para download público ainda não foram incluídos**, porque, na conferência de permissões realizada em 23/11/2026, o Drive indicou acesso `anyone` com papel `writer` (edição) para os arquivos e a pasta. Antes de divulgar os links, é necessário revisar essas permissões e, se a equipe autorizar a distribuição, conceder somente leitura ao público.
+Os dois arquivos processados estão disponíveis para leitura no Google Drive da pesquisa:
 
-Até essa revisão, quem tem acesso autorizado à pasta oficial deve baixar as cópias dos arquivos e fornecê-las manualmente ao Colab pela célula descrita abaixo. A pasta oficial do projeto é:
+- [Baixar features_treino.parquet](https://drive.google.com/file/d/1jUHAq6H9FKSgptv4nsCoOmFILH4Py_2S/view)
+- [Baixar features_teste_20201029.parquet](https://drive.google.com/file/d/1g22eCccxC4v_S2RmxPhFZyzfF1ARuzPk/view)
 
-- [Projeto Mixers Ethereum — pasta da pesquisa](https://drive.google.com/drive/folders/1Dkz-82gKd7q3woGZDjEHl9IhQNnC7hgj)
+[Pasta dos dados processados](https://drive.google.com/drive/folders/18IeCuFcx5ka0OoJAxjJt3gey7JVX71ht)
 
-Os arquivos Parquet são **dados processados**, não os dumps brutos. Reexecutar o notebook com eles não equivale a reconstruir as features diretamente dos registros da blockchain.
+A permissão de leitura pública foi conferida em 23/11/2026.
+
+Esses arquivos contêm dados processados. Seu uso não equivale à reconstrução completa das características a partir dos registros brutos da blockchain.
 
 ## Como carregar no Google Colab
 

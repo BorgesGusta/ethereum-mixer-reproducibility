@@ -25,7 +25,7 @@ Consulte os dados necessários antes de iniciar.
 
 ## Dados utilizados
 
-O EXP01 e o EXP02 utilizam dois arquivos Parquet processados, com nomes, tamanhos, origem e hashes descritos em [Dados para reproduzir os experimentos](docs/DADOS.md). Os dados **não estão incluídos neste repositório**. Por enquanto, a equipe deve fornecê-los manualmente no Colab, pois os links públicos de leitura ainda precisam de revisão de permissões.
+O EXP01 e o EXP02 utilizam dois arquivos Parquet processados, com nomes, tamanhos, origem e hashes descritos em [Dados para reproduzir os experimentos](docs/DADOS.md). Os dados **não estão incluídos neste repositório**. Os links públicos de leitura estão disponíveis em docs/DADOS.md. No Colab, baixe os arquivos e envie-os pela célula indicada no notebook.
 
 ## Por onde começar?
 
