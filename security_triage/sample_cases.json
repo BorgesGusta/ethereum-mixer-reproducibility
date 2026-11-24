@@ -1,0 +1,12 @@
+[
+  {
+    "contract": "0xF241d57C6DebAe225c0F2e6eA1529373C9A9C9fB",
+    "network": "ethereum-mainnet",
+    "model_score": null,
+    "evidence": [
+      {"type":"protocol_docs", "source":"https://github.com/0xbow-io/privacy-pools-core"},
+      {"type":"tx_receipt", "source":"https://eth.blockscout.com/tx/0x51fdc6cf55af6598544db3cef441e405df9a24d17d7ca9e47a287828839aa786", "tx_hash":"0x51fdc6cf55af6598544db3cef441e405df9a24d17d7ca9e47a287828839aa786", "receipt_ok":true, "pool_log_verified":true}
+    ]
+  },
+  {"contract":"0x0000000000000000000000000000000000000001", "model_score":0.82, "evidence":[]}
+]
