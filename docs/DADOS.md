@@ -38,13 +38,13 @@ Esses arquivos contêm dados processados. Seu uso não equivale à reconstruçã
 
 ## Como carregar no Google Colab
 
-1. Abra o EXP01 ou EXP02 usando o link no README.
+1. Abra o EXP01 ou EXP02 pelo botão do README e conecte a sessão.
 2. Execute as células de preparação e instalação.
-3. Na célula **Enviar e conferir os dados**, escolha os dois arquivos `.parquet` obtidos da fonte autorizada.
-4. O notebook guarda os arquivos apenas na sessão temporária em `data/processed/`, verifica os hashes e interrompe caso haja divergência.
-5. Execute as células seguintes e compare os resultados com `docs/RESULTADOS.md`.
+3. Execute **Baixar e conferir os dados**. A célula tenta obter os dois Parquets dos links públicos do Google Drive e verifica os hashes SHA-256 registrados acima.
+4. Se o Drive negar o download automático, use a janela de envio manual exibida pelo Colab e escolha os arquivos baixados pelos links acima.
+5. Execute as demais células e compare as saídas com `docs/RESULTADOS.md`.
 
-O conteúdo carregado não é enviado ao GitHub. Sessões temporárias do Colab podem apagar arquivos ao serem encerradas.
+O código não utiliza credenciais do Google Drive e não envia os arquivos ao GitHub. Eles ficam apenas na sessão temporária do Colab.
 
 ## Para executar localmente
 

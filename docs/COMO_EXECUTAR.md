@@ -2,14 +2,13 @@
 
 ## Google Colab
 
-1. No README, clique em **Abrir no Colab** no experimento desejado.
-2. Conecte o ambiente Python.
-3. Execute as células de preparação e instalação na ordem.
-4. Para EXP01 e EXP02, obtenha os dois Parquets por meio de acesso autorizado à pasta oficial da pesquisa, conforme `docs/DADOS.md`.
-5. Execute a célula **Enviar e conferir os dados**. Ela aceita upload manual, verifica nome e SHA-256 e armazena os arquivos apenas na sessão temporária.
-6. Execute o experimento e confronte a saída com `docs/RESULTADOS.md`.
+1. No README, clique em **Abrir no Colab** no EXP01 ou EXP02.
+2. Conecte o ambiente Python e execute as células de preparação e instalação.
+3. Execute **Baixar e conferir os dados**. O notebook tenta baixar os dois arquivos processados publicados para leitura e valida seus hashes SHA-256.
+4. Caso o Drive bloqueie o download automático, baixe os arquivos pelos links em `docs/DADOS.md` e envie-os pela janela do Colab.
+5. Execute o experimento e confronte as saídas com `docs/RESULTADOS.md`.
 
-**Importante:** os arquivos ainda não estão disponíveis para download público automatizado. Não altere as permissões de compartilhamento sem revisão da equipe. As etapas com dados reais ainda precisam de uma execução completa documentada no Colab.
+Os dados brutos não são reconstruídos por esse procedimento. A execução completa com dados históricos ainda exige validação registrada em uma sessão limpa.
 
 ## No computador
 
