@@ -23,6 +23,10 @@ Consulte os dados necessários antes de iniciar.
 | EXP10 | Validação repetida | [Abrir no Colab](https://colab.research.google.com/github/BorgesGusta/ethereum-mixer-reproducibility/blob/main/notebooks/EXP10-validacao-repetida/EXP10.ipynb) |
 | EXP11 | Triagem de segurança | [Abrir no Colab](https://colab.research.google.com/github/BorgesGusta/ethereum-mixer-reproducibility/blob/main/notebooks/EXP11-triagem/EXP11.ipynb) |
 
+## Dados utilizados
+
+O EXP01 e o EXP02 utilizam dois arquivos Parquet processados, com nomes, tamanhos, origem e hashes descritos em [Dados para reproduzir os experimentos](docs/DADOS.md). Os dados **não estão incluídos neste repositório**. Por enquanto, a equipe deve fornecê-los manualmente no Colab, pois os links públicos de leitura ainda precisam de revisão de permissões.
+
 ## Por onde começar?
 
 1. Leia [os dados necessários](docs/DADOS.md). Os arquivos processados da pesquisa não são publicados automaticamente aqui.
