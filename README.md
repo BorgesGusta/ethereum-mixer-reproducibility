@@ -4,6 +4,25 @@ Este repositório reúne os experimentos usados em uma pesquisa acadêmica sobre
 
 Reproduzimos parte da abordagem apresentada por **Leale e Sendin (SBSeg 2025)**. Em 29/10/2020, a pesquisa original relatou 63 alertas e nossa reprodução registrou nove. Ambos recuperaram os três pools de referência, mas a diferença não foi totalmente explicada. **Um alerta não confirma que o contrato seja um mixer nem indica, por si só, atividade criminosa.**
 
+## Executar no Google Colab
+
+Abra o notebook desejado e execute as células na ordem.
+Consulte os dados necessários antes de iniciar.
+
+| Experimento | Descrição | Google Colab |
+|---|---|---|
+| EXP01 | Reprodução do artigo | [Abrir no Colab](https://colab.research.google.com/github/BorgesGusta/ethereum-mixer-reproducibility/blob/main/notebooks/EXP01-reproducao/EXP01.ipynb) |
+| EXP02 | Sensibilidade dos filtros | [Abrir no Colab](https://colab.research.google.com/github/BorgesGusta/ethereum-mixer-reproducibility/blob/main/notebooks/EXP02-sensibilidade/EXP02.ipynb) |
+| EXP03 | Alertas de 2020 | [Abrir no Colab](https://colab.research.google.com/github/BorgesGusta/ethereum-mixer-reproducibility/blob/main/notebooks/EXP03-alertas-2020/EXP03.ipynb) |
+| EXP04 | Avaliação de 2026 | [Abrir no Colab](https://colab.research.google.com/github/BorgesGusta/ethereum-mixer-reproducibility/blob/main/notebooks/EXP04-avaliacao-2026/EXP04.ipynb) |
+| EXP05 | Auditoria de contratos | [Abrir no Colab](https://colab.research.google.com/github/BorgesGusta/ethereum-mixer-reproducibility/blob/main/notebooks/EXP05-auditoria/EXP05.ipynb) |
+| EXP06 | Controles e integridade | [Abrir no Colab](https://colab.research.google.com/github/BorgesGusta/ethereum-mixer-reproducibility/blob/main/notebooks/EXP06-controles-integridade/EXP06.ipynb) |
+| EXP07 | Revisão humana | [Abrir no Colab](https://colab.research.google.com/github/BorgesGusta/ethereum-mixer-reproducibility/blob/main/notebooks/EXP07-revisao-humana/EXP07.ipynb) |
+| EXP08 | Privacy Pools | [Abrir no Colab](https://colab.research.google.com/github/BorgesGusta/ethereum-mixer-reproducibility/blob/main/notebooks/EXP08-privacy-pools/EXP08.ipynb) |
+| EXP09 | Classificadores | [Abrir no Colab](https://colab.research.google.com/github/BorgesGusta/ethereum-mixer-reproducibility/blob/main/notebooks/EXP09-classificadores/EXP09.ipynb) |
+| EXP10 | Validação repetida | [Abrir no Colab](https://colab.research.google.com/github/BorgesGusta/ethereum-mixer-reproducibility/blob/main/notebooks/EXP10-validacao-repetida/EXP10.ipynb) |
+| EXP11 | Triagem de segurança | [Abrir no Colab](https://colab.research.google.com/github/BorgesGusta/ethereum-mixer-reproducibility/blob/main/notebooks/EXP11-triagem/EXP11.ipynb) |
+
 ## Por onde começar?
 
 1. Leia [os dados necessários](docs/DADOS.md). Os arquivos processados da pesquisa não são publicados automaticamente aqui.
